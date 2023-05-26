@@ -302,7 +302,7 @@ function startAnimation2(target) {
       percentage++;
       target.querySelector('.percentage2').textContent = "Yes:  " +percentage + '%';
     }
-  }, 50); // Change the interval to control the animation speed
+  }, 45); // Change the interval to control the animation speed
 
   target.style.opacity = 1; // Show the element
 }
